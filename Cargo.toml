@@ -1,0 +1,15 @@
+[package]
+name = "sudohunt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+clap-verbosity-flag = "2.1.1"
+env_logger = "0.10.1"
+errno = "0.3.8"
+libc = { version = "0.2.151", features = ["extra_traits"] }
+log = "0.4.20"
+nom = "7.1.3"
